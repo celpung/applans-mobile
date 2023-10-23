@@ -160,7 +160,7 @@ const LoginScreen = ({navigation}) => {
             <Button
               isLight={true}
               title="Lupa Password?"
-              //   action={() => handleLogin()}
+              action={() => navigation.navigate('CheckEmail')}
             />
           </View>
         </View>
@@ -170,19 +170,19 @@ const LoginScreen = ({navigation}) => {
           width: width,
           flex: 1,
           //   borderWidth: 1,
-          justifyContent: 'center',
+          justifyContent: 'space-around',
           paddingBottom: height / 30,
           alignItems: 'flex-end',
           flexDirection: 'row',
         }}>
         <Image
           source={IcPemko}
-          style={{width: '40%', height: height / 10}}
+          style={{width: '35%', height: height / 10}}
           resizeMode="contain"
         />
         <Image
           source={IcMedanBerkah}
-          style={{width: '40%', height: height / 10}}
+          style={{width: '35%', height: height / 10}}
           resizeMode="contain"
         />
       </View>

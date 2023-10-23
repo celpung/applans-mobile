@@ -56,6 +56,14 @@ export default StyleSheet.create({
     fontFamily: 'PlusJakartaSans-SemiBold',
     fontSize: height / 55,
   },
+  semiBoldSmall: {
+    fontFamily: 'PlusJakartaSans-SemiBold',
+    fontSize: height / 60,
+  },
+  semiBoldVerySmall: {
+    fontFamily: 'PlusJakartaSans-SemiBold',
+    fontSize: height / 65,
+  },
   mediumBig: {
     fontFamily: 'PlusJakartaSans-Medium',
     fontSize: height / 30,

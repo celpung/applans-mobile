@@ -2,12 +2,10 @@
 
 export default {
   PrimaryColor: '#DD2153',
-  SecondaryColor: '#d4bbfc',
-  LightPurple: '#e1d8f7',
+  SecondaryColor: 'rgba(221, 33, 83, 0.1)',
   Light: '#fff',
-  White: '#fbfaff',
-  DarkPurple: '#6247aa',
-  Dark: '#04314D',
+  DarkGrey: '#929292',
+  Dark: '#8C8B8B',
   Black: '#000',
   LightBlack: '#252525',
   grey: '#faf7fa',

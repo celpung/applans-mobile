@@ -16,7 +16,7 @@ const Button = ({title, isLight, action}) => {
         marginTop: isLight === true ? 10 : 0,
         height: height / 15,
         padding: 0,
-        borderRadius: width / 60,
+        borderRadius: width / 30,
         backgroundColor: isLight === true ? null : Colors.PrimaryColor,
         // borderWidth: isLight === true ? 1 : 0,
         borderColor: isLight === true ? Colors.PrimaryColor : '',
